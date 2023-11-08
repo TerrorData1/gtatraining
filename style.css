@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: floralwhite;
+    height: 400vh;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 135px;
+    line-height: 135px;
+    background: rgb(21,22,24);
+    width: 100%;
+    font-family: "Helvetica Neue",sans-serif;
+    font-size: 12px;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+  }
+  .navbar a:hover{
+    text-decoration: none;
+    color: orange;
+  }
+  .logo a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  nav{
+    width: 100%;
+  }
+  nav ul{
+    
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .baniere{
+    background-image: url(//www.rockstarmag.fr/wp-content/uploads/2023/10/Miami-Beach-Wallpaper-2000x1200-56312-copie.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer{
+    z-index: 100;
+    display: none;
+    position: fixed;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: rgb(248, 248, 248);
+    bottom:0; 
+    height: 135px;
+    background: rgb(21,22,24);
+    width: 100%;  
+  }
+  
